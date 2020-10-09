@@ -38,23 +38,24 @@ issues](https://img.shields.io/github/issues/2020-Invesum-Internship/hamonikr-pc
 * `timeshift`
 * `gufw`
 
-## 소스코드 패키지 빌드
+## 패키지 설치
+
+터미널(명령 프롬프트)에서 다음과 같이 프로그램 메뉴에 PC 지킴이가 설치할 수 있습니다
 
 
 ## HamoniKR PC Checker 설치
 
 ```
-git clone https://github.com/2020-Invesum-Internship/hamonikr-pcchecker.git
-cd hamonikr-pcchecker
-sudo make install
+sudo add-apt-repository ppa:yeji980407/ppa
+sudo apt-get update
+sudo apt-get install hamonikr-pcchecker
 
 ```
 
 ## HamoniKR PC Checker 삭제
 
 ```
-cd hamonikr-pcchecker
-sudo make clean
+sudo apt-get --purge remove hamonikr-pcchecker
 ```
 
 ## Using HamoniKR PC Checker
